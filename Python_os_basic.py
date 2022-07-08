@@ -4,88 +4,18 @@ import json
 
 user = getpass.getuser()
 
-# import sys
-# import getpass
-
-# user= getpass.getuser()
-# vklad=""
-# c="ziaden subor"
-# ls_pole=[]
-# prava = "rwx"
-
-#     temp=""
-#     d=0
-#     while(cd!=0):
-#         temp=temp+pole[d]
-#         d+=1
-#         cd-=1
-
-#     if(temp=="ls"):
-#         if(ls_pole==[]):
-#             print(c)
-#         for i in range(len(ls_pole)):
-#             print(ls_pole[i])
-#     if(temp=="touch"):
-#         output=vkladik+" "+user+" "+prava
-#         ls_pole.append(output)
-#     if(temp=="chmod"):
-#         gucci=0
-#         filler=ls_pole[0]
-#         if(ord(vkladik[0])<55 and ord(vkladik[0])>47):
-#             vkladik2=""
-#             for i in range(len(vkladik)-2):
-#                 vkladik2=vkladik2+vkladik[i+2]
-#             gucci=1
-#         else:
-#             print("chyba")
-#         vkladik=vkladik2
-
-#         ################
-# """         for i in range(len(ls_pole)):
-#             pokuser=ls_pole[i]
-#             pokuser2=""
-#             for j in range(len(vkladik)):
-#                 pokuser2=pokuser2+pokuser[j]
-#                 if(pokuser2==vkladik):
-                    
-#             if(pokuser) """
-#         ################
-
-#         if(gucci==1):
-#             for i in range(len(output)):
-#                 if(output[i]=="-" or output[i]=="r" and output[i+1]=="-" or output[i+1]=="w" and output[i+2]=="-" or output[i+2]=="x"):
-#                     prava="r--"
-#                     output=vkladik+" "+user+" "+prava
-#                     ls_pole[0]=output
-#                     break
-                
-#     if(temp=="quit"):
-#         break
-
 
 
 
 def pokusicek2(text):
-    vadim=""
     a=0
     d=a
-    suka="pokusik"
-    vadim=vadim+suka
-    #print("je to list text"+vadim)
     text1 = (text + "/").split("/")
-    c=0
-    #print("ree")
     if (len(text1) > 2):
-        c=1
-        if(c==3):
-            print("ree")
         return "home/" + text
     debuger=""
     a=3
     d=a
-    suka="stop him"
-    vadim=vadim+suka
-    #print("je to list text"+vadim)
     return f"{pouzivatelia.folder}/{''.join(text1[:-1:])}"
 
 
