@@ -4,9 +4,6 @@ import json
 
 user = getpass.getuser()
 
-
-
-
 def pokusicek2(text):
     a=0
     d=a
@@ -17,27 +14,6 @@ def pokusicek2(text):
     a=3
     d=a
     return f"{pouzivatelia.folder}/{''.join(text1[:-1:])}"
-
-
-
-
-""" def pokusicek2(text):
-    vadim=""
-    a=0
-    d=a
-    suka="pokusik"
-    vadim=vadim+suka
-    #print("je to list text"+vadim)
-    text1 = (text + "/").split("/")
-    if len(text1) > 2:
-        return "home/" + text
-    debuger=""
-    a=3
-    d=a
-    suka="stop him"
-    vadim=vadim+suka
-    #print("je to list text"+vadim)
-    return f"{pouzivatelia.folder}/{''.join(text1[:-1:])}" """
 
 
 ##list    
